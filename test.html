@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>three.js webgl - materials - dynamic cube reflection</title>
+        <meta charset="utf-8">
+        <meta name="viewport"content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link href="main.css"  rel="stylesheet">
+    </head>
+    <body>
+        <!-- Import maps polyfill -->
+        <!-- Remove this when import maps will be widely supported -->
+        <script async src="https://unpkg.com/es-module-shims@1.3.6/dist/es-module-shims.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+        <canvas>
+
+            <script type="importmap">
+			{
+				"imports": {
+					"three": "../build/three.module.js"
+				}
+			}
+		
+            </script>
+                <script type="module" src="main.js"></script>
+            </canvas>
+            <div class="container-fluid">
+
+                <nav id="navbar-example2" class="navbar  px-3;">
+                    <a class="navbar-brand" href="#">Logo</a>
+   
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#scrollspyHeading1">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#scrollspyHeading2">About Us</a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="#scrollspyHeading3">Contact</a>
+                        </li>
+                      
+                       
+                    </ul>
+                </nav>
+             
+
+
+
+                <div class="container-md">
+                    <div class="header">
+                        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+                            <h1 id="scrollspyHeading1" style="text-align: left;margin-top: 18px;">
+                                <p> The heading must be here. </p>
+                            </h1>
+                        </div>
+                    </div>
+                    
+
+                    <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt saepe voluptatem est sequi,
+                     molestiae vel numquam, autem, neque accusamus iure praesentium! Omnis soluta tenetur eveniet 
+                     aliquid illo consequatur veritatis cupiditate!
+                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi at error libero, et non quaerat 
+                     natus, atque officiis aut deleniti maiores consequuntur ad officia cumque dolores. Nemo dolor quis illum.
+                    </p>
+
+                    <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt saepe voluptatem est sequi,
+                     molestiae vel numquam, autem, neque accusamus iure praesentium! Omnis soluta tenetur eveniet 
+                     aliquid illo consequatur veritatis cupiditate!
+                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi at error libero, et non quaerat 
+                     natus, atque officiis aut deleniti maiores consequuntur ad officia cumque dolores. Nemo dolor quis illum.
+                    </p>
+
+                    <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt saepe voluptatem est sequi,
+                     molestiae vel numquam, autem, neque accusamus iure praesentium! Omnis soluta tenetur eveniet 
+                     aliquid illo consequatur veritatis cupiditate!
+                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi at error libero, et non quaerat 
+                     natus, atque officiis aut deleniti maiores consequuntur ad officia cumque dolores. Nemo dolor quis illum.
+                    </p>
+                </div>
+                <div class="container">
+                    
+                <div class="card text-center" style="height: 28em;">
+                    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+                        <h2 id="scrollspyHeading2" style="text-align: center;margin-top: 18px;">About the project </h2>
+                    </div>
+                    <div class="card-body">
+                       
+                        <p class="card-text " style="margin-top: 10px;">
+                            Lorem ipsum dolor sit amet  Necessitatibus ipsum,
+                            consectetur adipisicing elit.est quae sint accusantium 
+                            nesciunt reiciendis repellendus  voluptate corporis obcaecati
+                            impedit nam voluptatem similique ex,voluptatum!
+                            provident, illo animi. Architecto, adipisicing elit. Corrupti 
+                            Lorem ipsum dolor sit amet consectetur consectetur iure quo, 
+                            quibusdam error, quis at nam ipsum consequuntur harum, magnam
+                            tenetur vel maiores eum atque eaque doloribus modi ratione  d
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Even 
+                            nesciunt iure sint laboriosam laborum aliquam quis odio tenet
+                            officiis cupiditate sapiente neque accusantium doloremque mag
+                            recusandae? In vitae, ipsa voluptatem tempore consectetur vel
+                            fugit nulla, perspiciatis pariatur molestias cum culpa esse n 
+                        </p>
+                        
+                        <a href="#" class="btn" style="margin-top: 30px;">Read more</a>
+                    </div>
+                
+                    </div>
+                </div>
+           
+             
+
+            </div>    
+    
+    </body>
+</html>
