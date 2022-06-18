@@ -9,14 +9,6 @@ __pycache__/
 # Distribution / packaging
 .Python
 
-#from three-js
-texture/
-models/lakeside_-_exterior_scene/*
-models/of_planes_and_satellites/*
-models/pc/*
-img/*
-models/*
-
 develop-eggs/
 dist/
 downloads/
@@ -143,6 +135,13 @@ media/
 static/
 .vscode/*
 
-
 # Django stuff:
 *.log
+
+#from three-js
+texture/
+models/lakeside_-_exterior_scene/*
+models/of_planes_and_satellites/*
+models/pc/*
+img/*
+models/* 

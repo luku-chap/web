@@ -2,7 +2,8 @@ body {
     margin: 0;
     max-width: 100%;
     overflow-x: hidden;
-
+    color: white;
+   
 }
 
 body::-webkit-scrollbar {
@@ -20,21 +21,27 @@ canvas {
 
 }
 
-.navbar {
+
+.navbar ul{
     position: fixed;
+    margin-top: 5%;
     border: solid;
-    background-color: #040303;
-    z-index: 100;
-    
+    margin-left: 72%;
+ 
+   
 }
-.navbar ul,li {
-    align-items: center;
+.navbar-brand {
+    position: fixed;
+    margin-top: 5%;
+    margin-left: 2%;
+    color: white;
 }
+
 
 .container-fluid {
     border: solid;
-    padding-bottom: 20px;
     position: absolute;
+    /* background: linear-gradient(55deg, #16033f 0%, #110c2542 51%, #3f033d6f 85%); */
     background-image: linear-gradient(to right,#1F1D36,rgba(18, 3, 37, 0));
         
 }
@@ -44,6 +51,7 @@ canvas {
     border: solid;
     margin-top: 5%;
     margin-bottom: 5%;
+    max-height: 100%;
 }
 
 .header h1 {
@@ -54,7 +62,8 @@ canvas {
 }
 
 .card {
-    background-image: linear-gradient(to left, #040303, rgba(8, 44, 31, 0));;
+    background-color: black;
+    /* background-image: linear-gradient(to left, #000000, rgba(16, 17, 56, 0));; */
     /* box-shadow:
         0 0 50px rgb(77, 5, 103),
         -10px 0 80px rgb(7, 1, 7),
@@ -62,7 +71,9 @@ canvas {
         10px 0 80px rgb(17, 8, 12); */
 }
 
-
+.l_footer {
+    background: transparent;
+}
 
 
 
